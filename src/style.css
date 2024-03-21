@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("//fonts.googleapis.com/earlyaccess/notosanstc.css");
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #979C8A;
+  --secondary: #E6E2D9;
+  --secondary-0: hsla(42, 21%, 88%, 0);
+  --info: #696564;
+  --related-1: #616F5F;
+  --related-2: #c7d9cf;
+
+  --shade-1: #6e7362;
+  --shade-2: #5b5f4f;
+  --shade-3: #3c4031;
+  --shade-4: #1b2011;
+  --shade-5: #16221b;
+
+  --tint-1:#b6bba9;
+  --tint-2:#dadfcc;
+  --tint-3: #e9eeda;
+  --tint-4: #f1f6e2;
+  --tint-5: #f6fce8;
+
+  --warning: #cfa97b;
+  --error: #7f170d;
+  --success: #979c8a;
+
+  --black: #20201e;
+  --d-grey: #41413e;
+  --grey: #747371;
+  --l-grey: #9d9c9a;
+  --grey-blue: #bcbbb9;
+  --sliver: #e0dfdc;
+  --white: #eeedea;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: "Noto Sans TC", Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  letter-spacing: .5px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--primary);
+  background-image:  radial-gradient(at 150% 0%, var(--primary) 0, var(--secondary-0) 40%),radial-gradient(at 0% 150%, var(--primary) 0, var(--secondary) 40%);
+ 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
