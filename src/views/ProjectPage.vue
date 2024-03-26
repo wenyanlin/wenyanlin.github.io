@@ -2,10 +2,10 @@
     <div class="w-full flex justify-center mt-44 text-left">
         <div class="w-8/12 min-h-screen">
             <h1 class="text-5xl font-bold tracking-wider leading-snug mb-16" v-html="header.title"></h1>
-            <div class="flex gap-6 mb-20">
-                <p class="w-8/12" v-html="header.intro">
+            <div class="flex mb-20 flex-wrap">
+                <p class="w-8/12 pr-6 xl:w-8/12 lg:w-full md:w-full md:mb-4 sm:w-full sm:mb-4 block" v-html="header.intro">
                 </p>
-                <div class="w-4/12 flex flex-wrap">
+                <div class="w-4/12 flex flex-wrap xl:w-4/12 lg:w-full md:w-full md:mb-4 sm:w-full sm:mb-4">
                     <div class="w-1/2 mb-4" v-for="cate in header.others" :key="cate.title">
                         <p class="text-related-1 font-medium inline-block mb-2">{{ cate.title }}</p>
                         <p class="whitespace-nowrap" v-for="item in cate.content">
@@ -103,7 +103,7 @@ onMounted(() => {
         margin: .5rem auto 2rem;
         letter-spacing: 1px;
         text-indent: 2em;
-
+        line-height: 2rem;
     }
 
     ::v-deep p:has(img) {
@@ -120,20 +120,23 @@ onMounted(() => {
 
     ::v-deep ol {
         li {
-            counter-increment: step;
+            list-style: decimal;
             position: relative;
-            margin-bottom: 1rem;
+            margin: .5rem 1.5em;
+            padding: 0 1em;
 
             &:before {
                 text-align: center;
                 color: var(--primary);
-                content: counter(step);
                 position: absolute;
+                top:0.2rem;
+                left: 0;
             }
 
             p{
                 margin: 0;
                 padding: 0;
+                text-indent: 0;
             }
         }
     }

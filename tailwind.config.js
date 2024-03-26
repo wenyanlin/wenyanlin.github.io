@@ -9,7 +9,7 @@ export default {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1440px',
+      xl: '1344px',
     },
     colors: {
       'primary': '#979C8A',
@@ -51,6 +51,8 @@ export default {
       },
       width: {
         'inner-width': '84rem',
+        'inner-width-lg': '48rem',
+        'inner-width-md': '30rem',
       },
       borderRadius: {
         '4xl': '2rem',

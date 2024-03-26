@@ -1,0 +1,38 @@
+{
+    "title":"網頁基本練習作品合集",
+    "img_url":"/apiData/images/nonogram/nonogram.png",
+    "path":"/project/WebLayout",
+    "cate_title":"網頁基本練習作品合集",
+    "category":"​網頁設計",
+    "cate_intro":"​以做中學為主旨，以此學習零散的網頁知識，如：class命名規則、eslint、Router等等。",
+    "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
+    "intro":"​本篇以製作家裡蹲創意印刷股份有限公司為練習對象，分別設計並切出不同的排版方式，甚至增加功能，以此達到練習的目的。",
+    "others":[
+        {
+            "title": "我的角色",
+            "content": [
+                "網頁設計",
+                "​視覺設計"
+            ]
+        },
+        {
+            "title": "研究時長",
+            "content": [
+                "沒有期限"
+            ]
+        },
+        {
+            "title": "技能",
+            "content": [
+                "網頁相關​程式實作",
+                "排版及設計"
+            ]
+        },
+        {
+            "title": "團隊成員",
+            "content": [
+                "林文姸"
+            ]
+        }
+    ]
+}
