@@ -1,7 +1,22 @@
+@import url("//fonts.googleapis.com/earlyaccess/notosanstc.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("//fonts.googleapis.com/earlyaccess/notosanstc.css");
+
+@layer components{
+  .link-nav{
+    @apply text-primary text-lg duration-300 relative
+    hover:text-related-1;
+  }
+
+  .link-nav{
+    @apply text-info text-base duration-300 relative
+    hover:text-related-1
+    after:content-[''] after:w-3/4 after:h-0.5 after:absolute after:left-1/2 after:-bottom-1.5 after:-translate-x-1/2
+    hover:after:bg-primary after:duration-300;
+  }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -46,7 +61,6 @@
   --grey-blue: #bcbbb9;
   --sliver: #e0dfdc;
   --white: #eeedea;
-
 }
 
 *,
@@ -72,12 +86,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--primary);
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #535bf2;
+  color: var(--related-1);
 }
 
 body {
@@ -86,13 +100,14 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--primary);
-  background-image:  radial-gradient(at 150% 0%, var(--primary) 0, var(--secondary-0) 40%),radial-gradient(at 0% 150%, var(--primary) 0, var(--secondary) 40%);
- 
+  background-image:  radial-gradient(at 150% 0%, var(--primary) 0, var(--secondary-0) 40%),radial-gradient(at 110% 0%, var(--primary) 0, var(--white) 40%);
+  background-attachment: fixed;
+  color: var(--info);
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 1.5em;
+  line-height: 1.5;
 }
 
 button {
@@ -102,13 +117,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--primary);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: var(--shade-1);
 }
 
 button:focus,
@@ -121,23 +136,6 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
 }

@@ -47,6 +47,10 @@ export default {
       spacing: {
         '128': '32rem',
         '144': '36rem',
+        'gutter': '1.5rem',
+      },
+      width: {
+        'inner-width': '84rem',
       },
       borderRadius: {
         '4xl': '2rem',
