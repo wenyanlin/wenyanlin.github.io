@@ -2,7 +2,7 @@
     <div class="w-full flex flex-col gap-32 items-center">
         <div class="w-full h-screen flex justify-center items-center"><span class="text-7xl text-info font-black">PORTFOLIO</span></div>
         <div class="w-10/12 flex flex-wrap">
-            <div v-for="item in data" :key="item" class="w-1/2 h-fit p-3 xl:w-1/2 lg:w-full md:w-full sm:w-full">
+            <div v-for="item in data" :key="item" class="w-full h-fit p-3 xl:w-1/2 lg:w-full md:w-full sm:w-full">
                 <ProjectSection :intro="item"></ProjectSection>
             </div>
         </div>
@@ -28,6 +28,14 @@ import ProjectSection from '@/components/ProjectSection.vue';
 // const isLoading = ref(false);
 const data = ref([
     {
+        "cate_title":"家裡蹲官網練習",
+        "img_url":"/images/vuePractice/HM.png",
+        "path":"/project/VuePractice",
+        "category":"Vue + Vue Router 實作SPA案例",
+        "cate_intro":"以Figma設計版型，再以Vue3實作出SPA，並使用axios及marked插件導入數據及文案，是一次完整的前端練習。",
+        "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
+    },
+    {
         "cate_title":"​非主流NONOGRAM解題方法研究",
         "img_url":"/images/nonogram/nonogram.webp",
         "path":"/project/ResearchNONOGRAM",
@@ -44,22 +52,13 @@ const data = ref([
         "tag":["nonogram", "動畫", "動態設計", "illustrator", "premiere", "aftereffects", "cartoonanimator"],
     },
     {
-        "cate_title":"網頁基本練習作品合集",
-        "img_url":"/images/nonogram/nonogram.webp",
+        "cate_title":"網頁實作合集",
+        "img_url":"/images/websiteLayout/cover.png",
         "path":"/project/WebLayout",
         "category":"網頁設計",
         "cate_intro":"以做中學為主旨，以此學習零散的網頁知識，如：class命名規則、eslint、Router等等。",
-        "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
+        "tag":["網頁設計", "javascript", "scss", "html", "bem"],
     },
-    {
-        "cate_title":"網頁基本練習作品合集",
-        "img_url":"/images/nonogram/nonogram.webp",
-        "path":"/project/WebLayout",
-        "category":"網頁設計",
-        "cate_intro":"以做中學為主旨，以此學習零散的網頁知識，如：class命名規則、eslint、Router等等。",
-        "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
-    },
-    
 ]);
 // const loadAndParseMarkdown = async () => {
 //     isLoading.value = true;

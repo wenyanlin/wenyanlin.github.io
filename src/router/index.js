@@ -12,6 +12,7 @@ const router = createRouter({
       meta:
       {
         layout: 'MainLayout',
+        title: 'Wen Yan'
       }
     },
     {
@@ -52,6 +53,13 @@ const router = createRouter({
     // always scroll to top
     return { top: 0 }
   },
+})
+
+router.beforeEach((to, from, next) => {
+  if(to.meta.title){
+    window.document.title = to.meta.title;
+  }
+  next()
 })
 
 export default router;

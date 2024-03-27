@@ -1,12 +1,12 @@
 {
-    "title":"網頁基本練習作品合集",
+    "title":"網頁實作合集",
     "img_url":"/apiData/images/nonogram/nonogram.png",
     "path":"/project/WebLayout",
-    "cate_title":"網頁基本練習作品合集",
+    "cate_title":"網頁實作合集",
     "category":"​網頁設計",
     "cate_intro":"​以做中學為主旨，以此學習零散的網頁知識，如：class命名規則、eslint、Router等等。",
     "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
-    "intro":"​本篇以製作家裡蹲創意印刷股份有限公司為練習對象，分別設計並切出不同的排版方式，甚至增加功能，以此達到練習的目的。",
+    "intro":"​本篇以製作家裡蹲創意印刷股份有限公司為練習對象，分別設計並切出不同的排版方式或增加組件功能，以此達到練習的目的。第一份作品主要為切版，組件製作可以看第二份作品。",
     "others":[
         {
             "title": "我的角色",

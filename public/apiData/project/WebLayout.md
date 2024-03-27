@@ -116,9 +116,86 @@
 
 ## 程式碼：https://github.com/wenyanlin/Layout-Practice-2.git
 
-## 詳細說明
+## 說明
 
-![預覽圖](/images/websiteLayout/3.png)
+### Navbar
+
+Navbar有兩列，分別用於其他功能及導覽作用，其中產品總欄是使用`$.getJSON`導入。
+
+![Navbar](/images/websiteLayout/4.gif)
+
+---
+
+### 首頁
+
+![首頁](/images/websiteLayout/3.png)
+
+從架構上而言，是為了讓新舊客戶都能快速使用本網站，因此沒有過多的商品推薦區域。
+
+首頁如上圖所示，其中因為輪播圖沒有需要客製化的打算，所以直接使用bootstrap製作，如下圖。
+
+![輪播圖](/images/websiteLayout/1.gif)
+
+---
+
+輪播圖向下分成左右兩欄，左欄上方為「新手上路」，使用`Hover`時更換圖片的方式製作動畫，吸引新客點擊
+
+![新手上路](/images/websiteLayout/2.gif)
+
+---
+
+快速查價的選項復刻了[這個作品](https://codepen.io/vulchivijay/pen/rxyBpg)，使用`option`的`value`額外新增一個互動性的結構，並隱藏原來預設的整組`select`，這裡純粹是為了好玩，若要實際運用在網站上，可能會發生比較多不可預期的Bug。
+
+![快速查價](/images/websiteLayout/3.gif)
+
+---
+
+最新消息的區域是使用jQuery 的`$.getJSON`抓取本網站存放最新消息的JSON檔，經過處理後只讓前三則顯示完整內容，其餘只顯示兩行。有趣的是我還特意計算了前三則顯示公告的行數若過多，會自動隱藏最下面的幾則消息，但現在看來最好的做法依然是限制前三則訊息的行數（但比後面幾則還多行），這樣更有利於製作。
+
+![最新消息](/images/websiteLayout/4.png)
+
+---
+
+### 產品頁
+
+![產品頁](/images/websiteLayout/5.png)
+
+產品頁的版型參考了[印刷業同行](https://gainhow.tw/ProductCategory/Products?CustomProduct=BusinessCard)，不過大致上是一種常見的商品模版，再由網址去導入對印的產品資料，進而這個畫面就誕生了。比較特別的是我新增了**紙張材質**及**印後加工**的欄位，因為在這個行業最常變動的絕對是紙類及加工，並且一種商品會對應到數十種乃至數百種紙類，客戶該選擇哪一種紙類或加工就能在網路上先參考這兩個欄位的詳細說明，而外獨立出來對於時常變動的資料來說也會比較好維護。
+
+![產品頁](/images/websiteLayout/5.gif)
+
+### 常見須知 & 下載中心
+
+![常見須知](/images/websiteLayout/6.png)
+
+常見須知及下載中心的版型相同，也是參考了[印刷業同行](https://gainhow.tw/ProductCategory/Products?CustomProduct=BusinessCard)，上面可以選擇幾大類別，並產生網址的對應query，下面便會進行更新，其中新手上路也正是放在這裡，與首頁不同的是進度條會卡在點選的欄位上。
+
+![常見須知](/images/websiteLayout/6.gif)
+
+最後看一下下載中心
+
+![下載中心](/images/websiteLayout/7.png)
+
+整個練習就到這裡結束。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
