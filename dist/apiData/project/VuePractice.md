@@ -124,7 +124,7 @@
 
 ## 三欄版型
 
-![三欄版型](/images/vuePractice/常見問題-會員相關-常見問題.png)
+![三欄版型](/images/vuePractice/三欄版型.png)
 
 這種版型我是參考了許多技術文件或教學類網站，如：[Vue.js](https://cn.vuejs.org/)、[Material Design](https://m2.material.io/design)，很適用於各種需要閱讀文章及展示分類的區域，所以我用來製作本網站的大部分區域，如：常見問題、下載中心等等。
 

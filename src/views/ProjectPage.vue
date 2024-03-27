@@ -153,6 +153,23 @@ onMounted(() => {
             }
         }
     }
+
+    ::v-deep ul{
+        padding: 1rem 0;
+        li{
+            list-style: disc;
+            margin: .5rem 1.5em;
+        }
+    }
+
+    ::v-deep code{
+        display: inline-block;
+        margin: 0 .25rem;
+        padding: 0 .5rem;
+        background-color: var(--sliver);
+        border-radius: 10px;
+        color: var(--related-1);
+    }
     
 }
 
