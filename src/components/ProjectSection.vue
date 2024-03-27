@@ -5,13 +5,13 @@
                 :style="{ 'background-image': 'url(' + dataC.img_url + ')' }">
             </RouterLink>
         </div>
-        <h1 class="projectSection_title">​<RouterLink to="dataC.path" class="font-semibold text-info">{{
+        <h1 class="projectSection_title">​<RouterLink :to="dataC.path" class="font-semibold text-info">{{
                     dataC.cate_title }}</RouterLink>
         </h1>
-        <p class="projectSection_category mb-2 ">​<RouterLink to="dataC.path" class="text-grey font-normal">
+        <p class="projectSection_category mb-2 ">​<RouterLink :to="dataC.path" class="text-grey font-normal">
                 {{ dataC.category }}</RouterLink>
         </p>
-        <p class="projectSection_content mb-2">​<RouterLink to="dataC.path" class="text-info font-normal">
+        <p class="projectSection_content mb-2">​<RouterLink :to="dataC.path" class="text-info font-normal">
                 {{ dataC.cate_intro }}</RouterLink>
         </p>
         <p class="projectSection_tag text-related-1"><span v-for="item in dataC.tag" :key="item">#{{ item + ' ' }} </span>

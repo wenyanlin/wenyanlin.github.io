@@ -28,10 +28,10 @@ import ProjectSection from '@/components/ProjectSection.vue';
 // const isLoading = ref(false);
 const data = ref([
     {
-        "cate_title":"家裡蹲官網練習",
+        "cate_title":"家裡蹲創意印刷官網",
         "img_url":"/images/vuePractice/HM.png",
         "path":"/project/VuePractice",
-        "category":"Vue + Vue Router 實作SPA案例",
+        "category":"Vue + Vue Router 實作SPA練習案例",
         "cate_intro":"以Figma設計版型，再以Vue3實作出SPA，並使用axios及marked插件導入數據及文案，是一次完整的前端練習。",
         "tag":["網頁設計", "javascript", "scss", "html", "bem", "vue","vue-router"],
     },

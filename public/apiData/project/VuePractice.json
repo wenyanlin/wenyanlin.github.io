@@ -1,9 +1,9 @@
 {
-    "title":"家裡蹲官網",
+    "title":"家裡蹲創意印刷官網",
     "img_url":"/apiData/images/nonogram/nonogram.png",
     "path":"/project/VuePractice",
-    "cate_title":"家裡蹲官網",
-    "category":"Vue + Vue Router 實作SPA案例",
+    "cate_title":"家裡蹲創意印刷官網",
+    "category":"Vue + Vue Router 實作SPA練習案例",
     "cate_intro":"以Figma設計版型，再以Vue3實作出SPA，並使用axios及marked插件導入數據及文案，是一次完整的前端練習。",
     "tag":["網頁設計", "vue3","vue-router","Composition API", "SPA", "javascript", "scss", "html", "bem"],
     "intro":"從發想網頁架構開始，在了解公司產業後提出相應設計規範，並以Figma編排所有版型，其中會以Illustrator穿插設計版型所需的圖片，在確認後使用Vue3搭配其Vue Router撰寫整個網頁架構，拆分組件並將他們拼在一起，完成一次SPA網頁。",
