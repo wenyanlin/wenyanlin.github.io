@@ -1,0 +1,43 @@
+{
+    "title":"NONOGRAM<br>動畫介紹短片",
+    "img_url":"/apiData/images/nonogram/nonogram.png",
+    "path": "/project/NONOGRAMAnimatedIntroductionVideo",
+    "cate_title":"NONOGRAM：動畫介紹短片",
+    "category":"動畫設計",
+    "cate_intro":"Nonogram是一種益智遊戲，我們期望能以動畫短片的方式將它推廣給更多的玩家或孩子。",
+    "tag":["nonogram", "動畫", "動態設計", "illustrator", "premiere", "aftereffects", "cartoonanimator"],
+    "intro":"Nonogram是一種解謎類型的益智遊戲，也被稱為「Picross」或「Griddlers」。遊戲基於一個由數字構成的網格，玩家需要根據數字提示在網格中填入正確的色塊，最終揭露出隱藏在網格中的圖案。我們使用動畫來介紹這個遊戲，從歷史到規則；再到實作及結論，用簡單的語言將NONOGRAM分享給更多人。",
+    "others":[
+        {
+            "title": "我的角色",
+            "content": [
+                "組長",
+                "​動畫製作及整合"
+            ]
+        },
+        {
+            "title": "研究時長",
+            "content": [
+                "Mar--Jun, 2022"
+            ]
+        },
+        {
+            "title": "技能",
+            "content": [
+                "腳本撰寫",
+                "團隊管理",
+                "動畫製作"
+            ]
+        },
+        {
+            "title": "團隊成員",
+            "content": [
+                "林芃儀",
+                "林文妍",
+                "賴姿穎",
+                "莊琬婷",
+                "澎愛珠"
+            ]
+        }
+    ]
+}
