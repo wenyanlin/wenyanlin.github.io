@@ -1,3 +1,21 @@
+# 本次使用到的工具及語言
+
+- 網頁架構：Xmind
+- 網頁圖示設計：Illustrator、Photoshop
+- 版型設計：Figma
+- 編譯環境：VScode
+- 版本控制：Git（SourceTree）
+- 框架：VUE3
+- 建構工具：Vite
+- CSS預處理器：SCSS
+- 其他套件：
+  - 載入資料：axios
+  - Router：vue-router
+  - Markdown解析：marked
+  - Markdown標頭捕獲：marked-gfm-heading-id
+  - 預防XSS：DOMPurify
+
+
 # 事前準備
 
 對於事前準備工作，主要有以下幾項：
@@ -130,7 +148,7 @@
 
 最左側是分類，中間可以撰寫任何文章，右側則是文章的索引或其他區域。因為閱讀文章的寬度範圍不需要太寬廣，以免造成閱讀困難，這種設計就可以讓畫面不會太空曠，且文章寬度合適，並且提供更好的查找方式。
 
-# 程式設計
+# 前端實作
 
 設計完版面以後，就要開始實際操作，以下是我在實作方面使用的相關工具及程式：
 
